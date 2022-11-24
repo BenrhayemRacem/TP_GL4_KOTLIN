@@ -20,7 +20,7 @@
         <ImageView
             android:id="@+id/gender_image"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             app:srcCompat="@drawable/man_photo" />
 
@@ -30,5 +30,18 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="TextView" />
+
+        <CheckBox
+            android:id="@+id/checkBoxPresent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Present" />
+
+        <CheckBox
+            android:id="@+id/checkBoxAbsent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Absent" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -16,6 +16,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"></Spinner>
 
+        <Spinner
+            android:id="@+id/spinnerPresence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
         <EditText
             android:id="@+id/textPersonName"
             android:layout_width="match_parent"
