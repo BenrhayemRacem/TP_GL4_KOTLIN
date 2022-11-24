@@ -16,6 +16,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"></Spinner>
 
+        <EditText
+            android:id="@+id/textPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp" />
+
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerView"
             android:layout_width="409dp"
